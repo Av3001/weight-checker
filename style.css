@@ -1,0 +1,41 @@
+.container{
+    top: 30%;
+    left: 40%;
+    border: 5px solid;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-image:
+     linear-gradient(
+        to bottom,
+        rgba(255, 255, 0, 0.5),
+        rgba(0, 0, 255, 0.5)
+      ),
+       url("https://media.giphy.com/media/Xf1Zj5nYsoTcBE4BIN/giphy.gif");
+    
+}
+body{
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.text{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    color: white;
+}
+#weight{
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    margin: 10px;
+}
+.btn{
+    top: 60%;
+    left: 45%;
+    position: absolute;
+    
+}
